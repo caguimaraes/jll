@@ -1,0 +1,190 @@
+/*PRINCIPAIS*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 50px 0 50px 0;
+}
+
+/* TOPO */
+
+.nav-menu{
+    background-color: #000000;
+    height: 50px;
+}
+
+.logo > img{
+    width: 100px;
+    padding-left: 20px;
+}
+
+/* HEADER */
+
+header{
+    background-image: url('../img/header.png');
+    background-size: cover;
+    padding: 50px;
+}
+
+.itens-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulos p{
+    text-align: left;
+    color: white;
+    max-width: 80%;
+}
+
+.titulos h1{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    text-align: left;
+    color: white;  
+}
+
+/* FORMULÁRIO */
+
+.form{
+    background-color: black;
+    padding: 20px;
+    min-width: 280px;
+}
+
+.form h3{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.form p{
+    text-align: left;
+    color: white;
+    margin: 0;
+    font-size: 14px;
+}
+
+.form-sub p{
+    font-size: 12px;
+    margin: 5px 0 15px 0;
+}
+
+.form-itens p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.form input[type="text"]{
+    width: 100%;
+    height: 20px;
+    padding-left: 10px;
+    margin: 0 0 15px 0;
+    background-color: #b1b2b4;
+    border: 0px;
+}
+
+.form input[type="email"]{
+    width: 100%;
+    height: 20px;
+    padding-left: 10px;
+    margin: 0 0 15px 0;
+    background-color: #b1b2b4;
+    border: 0px;
+}
+
+.form input[type="submit"]{
+    background-color: #e30613;
+    height: 36px;
+    max-width: 80%;
+    min-width: 100px;
+    border: 0;
+    font-size: 16px;
+    color: white;
+    padding: 0 20px 0 20px;
+    text-transform: uppercase;
+    margin-left: 15%; 
+}
+
+/* SOBRE */
+
+#sobre{
+    background-color: #b1b2b4;
+}
+
+.sobre-itens h1{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+/* SERVIÇOS */
+
+#servicos h1{
+    text-align: center;
+    color: #626468;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+#servicos p{
+    color: #626468;
+}
+
+.servicos_itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicos_itens img{
+    width: 100px;
+}
+
+/* FOOTER */
+
+footer{
+    background-image: url('../img/1.png');
+    background-size: cover;
+    padding: 20px 0 20px 0;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.site{
+    font-size: 30px;
+}
+
+.copyright{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.logofooter > img{
+    width: 100px;
+    align-items: center;
+    padding: 0px;
+}
